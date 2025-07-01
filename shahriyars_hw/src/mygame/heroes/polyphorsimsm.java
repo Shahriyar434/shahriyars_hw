@@ -8,13 +8,7 @@ public class polyphorsimsm {
         accounts[1] = new CheckingAccount();
         accounts[2] = new BusinessAccount();
 
-        for (BankAccount acc : accounts) {
-            acc.accountType();
-            acc.deposit(1000);
-            acc.withdraw(500);
-            System.out.println("Баланс: " + acc.balance);
-            System.out.println();
-        }
+        
     }
 }
 
