@@ -8,7 +8,7 @@ public class polyphorsimsm {
         accounts[1] = new CheckingAccount();
         accounts[2] = new BusinessAccount();
 
-        
+
     }
 }
 
@@ -48,7 +48,7 @@ class CheckingAccount extends BankAccount {
     @Override
     public void withdraw(double amount) {
         System.out.println("Spent money");
-        super.withdraw(amount);
+
     }
 
     @Override
@@ -62,7 +62,7 @@ class BusinessAccount extends BankAccount {
     @Override
     public void withdraw(double amount) {
         System.out.println("Spend money from business account");
-        super.withdraw(amount);
+
     }
 
     @Override
