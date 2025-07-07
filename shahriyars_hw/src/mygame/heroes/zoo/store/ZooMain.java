@@ -1,6 +1,9 @@
 package mygame.heroes.zoo.store;
 
+
+
 public class ZooMain {
+
     public static void main(String[] args) {
         Animal[] animals = {
                 new Lion("abdul"),
