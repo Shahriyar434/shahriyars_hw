@@ -16,6 +16,7 @@ public class Login {
         System.out.println("User registered ");
         System.out.println("Username: " + newUser.getUsername());
         System.out.println("Email: " + newUser.getEmail());
+        System.out.println("password" + newUser.getPassword());
 
     }
 }
