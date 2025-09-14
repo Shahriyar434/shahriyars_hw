@@ -1,4 +1,4 @@
-package mygame.heroes.bank;
+package mygame.heroes;
 
 abstract class BankAccount {
     protected String accountHolder;

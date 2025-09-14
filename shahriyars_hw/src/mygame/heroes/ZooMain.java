@@ -1,4 +1,4 @@
-package mygame.heroes.zoo.store;
+package mygame.heroes;
 
 
 

@@ -1,6 +1,4 @@
-package mygame.heroes.Login;
-
-import mygame.heroes.Register;
+package mygame.heroes;
 
 public class Login {
     public static void main(String[] args) {
