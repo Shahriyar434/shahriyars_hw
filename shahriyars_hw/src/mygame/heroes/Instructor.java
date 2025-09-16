@@ -24,7 +24,7 @@ class Instuctor {
 
 
         if (!mylife.exists()) {
-            
+
             System.out.println("'My life' folder created.");
         }
         if (!myday.exists()) {
