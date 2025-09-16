@@ -33,7 +33,7 @@ public class MainDate {
         };
 
         Calendar calendar = Calendar.getInstance();
-        System.out.println("\nCurrent month: " + month[calendar.get(Calendar.MONTH)]);
+        System.out.println("Current month: " + month[calendar.get(Calendar.MONTH)]);
         System.out.println("Day of month: " + calendar.get(Calendar.DATE));
         System.out.println("Current year: " + calendar.get(Calendar.YEAR));
         System.out.println("Day of week (number): " + calendar.get(Calendar.DAY_OF_WEEK));
@@ -50,7 +50,7 @@ public class MainDate {
 
 
         LocalDate today = LocalDate.now();
-        System.out.println("\nToday: " + today);
+        System.out.println("Today: " + today);
         System.out.println("Day of year: " + today.getDayOfYear());
 
 
@@ -60,7 +60,7 @@ public class MainDate {
 
 
         LocalDate last2025 = LocalDate.of(2025, 12, 31);
-        System.out.println("\nDecember 31, 2025 is: " + last2025.getDayOfWeek());
+        System.out.println("December 31, 2025 is: " + last2025.getDayOfWeek());
         System.out.println("Day of year: " + last2025.getDayOfYear());
     }
 }
