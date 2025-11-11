@@ -34,7 +34,7 @@ public class Bank {
     public static void main(String[] args) {
 
         Account acc1 = new Account(1, "Adil", 1000);
-        Account acc2 = new Account(2, "Bobik", 200);
+        Account acc2 = new Account(2, "Bobik!", 200);
 
         Scanner sc = new Scanner(System.in);
         while (true) {
