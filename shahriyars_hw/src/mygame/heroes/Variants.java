@@ -34,7 +34,7 @@ public class Variants {
 
     public void listStudents() {
         if (students.isEmpty()) {
-            System.out.println("No students.");
+            System.out.println("No students!");
             return;
         }
         System.out.println("Students:");
